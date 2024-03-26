@@ -119,3 +119,18 @@ body {
     font-size: 1em;
 
   }
+  @media screen and (max-width: 576px) {
+    .container {
+      margin: 20px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      margin: 30px;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .container {
+      margin: 40px;
+    }
+  }
