@@ -1,0 +1,121 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+
+body {
+    background-color: rgb(194, 177, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    position: relative;
+    width:100%;
+    max-width: 800px;
+    min-height:800px;
+    background-color: aliceblue;
+    margin: 50px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+  }
+
+  .container .div1{
+    position: relative;
+    padding:40px;
+    background-color: rgb(23, 23, 47);
+  }
+
+
+  .profile{
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(253, 253, 253, 0.848);
+  }
+
+  .profile h1{
+    color: azure;
+    display: inline;
+    font-size: 1.6em;
+  }
+  .profile p{
+    color: azure;
+    font-size: 1em;
+  }
+
+  .info{
+    padding-top: 15px;
+  }
+  .info h2{
+    padding-top: 10px;
+    color: azure;
+  }
+  .info a{
+    padding-top: 10px;
+    color: antiquewhite;
+  }
+  .info p{
+    padding-top: 10px;
+    color: antiquewhite;
+  }
+  .info ul{
+    padding-top: 10px;
+    color: antiquewhite;
+  }
+  
+  .container .div2{
+    position: relative;
+    padding:40px;
+    background-color: rgb(199, 199, 213);
+  }
+
+  .about{
+    position: relative;
+    display: flex;
+    flex-direction:column;
+  }
+  
+  .about h2{
+    padding-top: 10px;
+    color:rgb(23, 23, 47);  
+}
+  
+.about p{
+    padding-top: 10px;
+    color: rgb(15, 3, 91);
+    font-size: 1.3em;
+
+  }
+  .about ul{
+    padding-top: 10px;
+    color: rgb(15, 3, 91);
+    font-size: 1.3em;
+
+  }
+  .about .des{
+    padding-top: 10px;
+    color: rgb(15, 3, 91);
+    font-size: 1em;
+
+  }
+  .about .dest{
+    padding-top: 10px;
+    color: rgb(15, 3, 91);
+    font-size: 1em;
+  }
+  .about a:hover{
+    color: blue;
+  }
+  footer {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 1em;
+
+  }
